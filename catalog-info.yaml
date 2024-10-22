@@ -1,0 +1,20 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: sample-spring-boot-app
+  title: sample-spring-boot-app
+  annotations:
+    circleci.com/project-slug: github/hoang/sample-spring-boot-app
+    github.com/project-slug: hoang/sample-spring-boot-app
+    sonarqube.org/project-key: hoang_sample-spring-boot-app
+  tags:
+    - spring-boot
+    - java
+    - maven
+    - circleci
+    - renovate
+    - sonarqube
+spec:
+  type: service
+  owner: guests
+  lifecycle: experimental
